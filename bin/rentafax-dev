@@ -8,3 +8,6 @@ tab -t eval "cd ~/Projects/rentafax && source ve/bin/activate && tail -f debug.l
 tab -t eval "cd ~/Projects/rentafax && source ve/bin/activate"
 # Open deploy dir
 tab -t eval "cd ~/Projects/webfaction-django-fabfile/"
+
+#Open project
+open ~/Projects/Faxbrite.sublime-project

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Open nimbus dir
+tab -t eval "cd ~/Projects/c9-nimbus/nimbus"
+# Switch to chef dir ssh to box
+tab -t eval "cd ~/Projects/c9-nimbus/chef && (pidof VBoxSVC && vagrant ssh) || (vagrant up && vagrant ssh)"
+
+#Open project
+open ~/Projects/c9-nimbus/Nimbus.sublime-project
