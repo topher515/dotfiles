@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Open ve shell; run dev server
+tab -t eval "cd ~/Projects/rentafax && source ve/bin/activate && ./manage.py runserver"
+# Debug
+tab -t eval "cd ~/Projects/rentafax && source ve/bin/activate && tail -f debug.log"
+# Open ve shell 
+tab -t eval "cd ~/Projects/rentafax && source ve/bin/activate"
+# Open deploy dir
+tab -t eval "cd ~/Projects/webfaction-django-fabfile/"

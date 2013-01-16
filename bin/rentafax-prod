@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Ssh to rentafax rlunch
+tab -t eval "ssh rlunch@rlunch.webfactional.com"
+tab -t eval "ssh rlunch@rlunch.webfactional.com"
