@@ -22,6 +22,8 @@ alias oo="open ."
 
 # Git Shortcuts
 alias gitpom="git push origin master"
+alias gitdsom="git diff --stat origin/master"
+alias gitpull="git pull origin master"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
